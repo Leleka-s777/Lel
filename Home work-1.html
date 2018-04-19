@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+</head>
+<body>
+  <form action="" method="GET" id="form">
+   <h1 align="center">Моя первая форма</h1>
+    <div>
+	 <label> E-mail:
+	  <input autocomplete="email" type="email" name="email" required><label>
+	  </div>
+	  <hr>
+	  <div>
+	     Пароль
+		<input type="password" name="pass1" required>
+      </div>
+	  <hr>
+	  <div>
+	     Подтверждение пароля
+	    <input type="password" name="pass2" size="50" readonly>
+	  </div>
+	  <hr>
+	  <div>
+	     Персональное фото
+	    <input type="text" name="text">
+		<input type="button" value="Обзор...">
+	  </div>
+	  <hr>
+	  <div>
+	     Выбор аватара
+		 <input type="text" name="text">
+		 <input type="button" value="Выбор">
+		 <input type="button" value="Загрузить">
+		 </div>
+		 <hr>
+		<div>
+		 Страна проживания
+		 <select name="country">
+		  <option value="Ukraine">Украина</option>
+		  <option value="Russia">Россия</option>
+		  <option value="Poland">Польша</option>
+		  <option value="Germany">Германия</option>
+		  <option value="USA">США</option>
+		 </select>
+		 </div>
+		  <hr>
+		 Город проживания
+		 <select name="sity">
+		  <option value="Kiev">Киев</option>
+		  <option value="Lviv">Львов</option>
+		  <option value="Kharkiv">Харьков</option>
+		  <option value="Moscov">Москва</option>
+		  <option value="Wroclaw">Вроцлав</option>
+		  <option value="Katowice">Катовице</option>
+		  <option value="Hamburg">Гамбург</option>
+		  <option value="Berlin">Берлин</option>
+		  <option value="Washington">Вашингтон</option>
+		 </select>
+		  <hr>
+		  <label>Мужской<input type="radio" name="time" value="man"></label>
+		  <label>Женский<input type="radio" name="time" value="woman"></label>
+		  <hr>
+		  Укажите дату рождения
+		  <input type="date" name="birthday">
+		  <hr>
+		 <div>
+		   Фамилия
+		   <input type="text" name="text">
+		   <div>
+		   <hr>
+		 <div>
+		    Имя
+			<input type="text" name="text">
+			<div>
+			<hr>
+	     <div>
+		   Отчество
+		   <input type="text" name="text">
+		   <div>
+		   <hr>
+		   Коментарий
+		  <textarea name="text" cols="50" rows="5" ></textarea>
+		   <hr>
+		  <input type="submit">
+	  
+  </form>
+
+</body>
